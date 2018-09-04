@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 
-data = pd.read_csv('/Users/Yihe/Desktop/Input.csv', index_col = 0)
+data = pd.read_csv('C:\\Users\\Yihe\\Desktop\\Input.CSV', index_col = 0)
 
 # Have a glance of the original data frame
 data.head(5)
@@ -30,4 +30,4 @@ new_df = data_by_state("Alabama").append(list3,ignore_index=True)
 
 # export to local path
 
-new_df.to_csv('/Users/Yihe/Desktop/data science- traffic pattern/Output.csv', sep=',',encoding='utf-8')
+new_df.to_csv('C:\\Users\\Yihe\\Desktop\\data science- traffic pattern\\Output.csv', sep=',',encoding='utf-8')
